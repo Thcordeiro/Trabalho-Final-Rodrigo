@@ -1,4 +1,4 @@
-package trabalho1;
+package trabalhofinalrodrigo;
 
 import javax.swing.JOptionPane;
 
@@ -37,7 +37,7 @@ public class Main {
         account.setNumber( Integer.parseInt( JOptionPane.showInputDialog( null, "Digite "
             + "o número da conta (Ex: 6040):", "conta-comum", JOptionPane.QUESTION_MESSAGE ) ) );
 
-        account.setBalance( Double.parseDouble( JOptionPane.showInputDialog( null, "Digit"
+        account.setBalance( Double.parseDouble( JOptionPane.showInputDialog( null, "Digite"
             + "e o saldo inicial R$:", "conta-comum", JOptionPane.QUESTION_MESSAGE ) ) );
 
         JOptionPane.showMessageDialog( null, "Em seguida digite as informações da "
@@ -49,10 +49,10 @@ public class Main {
         savingsAccount.setNumber( Integer.parseInt( JOptionPane.showInputDialog( null, "Digite "
             + "o número da conta (Ex: 6040):", "conta-poupança", JOptionPane.QUESTION_MESSAGE ) ) );
 
-        savingsAccount.setBalance( Double.parseDouble( JOptionPane.showInputDialog( null, "Digit"
+        savingsAccount.setBalance( Double.parseDouble( JOptionPane.showInputDialog( null, "Digite"
             + "e o saldo inicial R$:", "conta-poupança", JOptionPane.QUESTION_MESSAGE ) ) );
 
-        savingsAccount.readjust( Double.parseDouble( JOptionPane.showInputDialog( null, "Digit"
+        savingsAccount.readjust( Double.parseDouble( JOptionPane.showInputDialog( null, "Digite"
             + "e a taxa (Ex: 5%):", "conta-poupança", JOptionPane.QUESTION_MESSAGE ) ) );
         //FIM Recebendo Conta Poupança
 
@@ -67,13 +67,13 @@ public class Main {
         specialAccount.setNumber( Integer.parseInt( JOptionPane.showInputDialog( null, "Digite "
             + "o número da conta: (Ex: 6040)", "conta-especial", JOptionPane.QUESTION_MESSAGE ) ) );
 
-        specialAccount.setBalance( Double.parseDouble( JOptionPane.showInputDialog( null, "Digit"
+        specialAccount.setBalance( Double.parseDouble( JOptionPane.showInputDialog( null, "Digite"
             + "e o saldo inicial R$:", "conta-especial", JOptionPane.QUESTION_MESSAGE ) ) );
 
-        specialAccount.setLimit( Integer.parseInt( JOptionPane.showInputDialog( null, "Digit"
+        specialAccount.setLimit( Integer.parseInt( JOptionPane.showInputDialog( null, "Digite"
             + "e o limite R$:", "conta-especial", JOptionPane.QUESTION_MESSAGE ) ) );
 
-        specialAccount.setFine( Integer.parseInt( JOptionPane.showInputDialog( null, "Digit"
+        specialAccount.setFine( Integer.parseInt( JOptionPane.showInputDialog( null, "Digite"
             + "e a multa: (Ex: 10%):", "conta-especial", JOptionPane.QUESTION_MESSAGE ) ) );
         //FIM Recebendo Conta Especial
 
